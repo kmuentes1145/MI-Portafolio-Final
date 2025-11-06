@@ -1,0 +1,401 @@
+    <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portafolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script  src="./../jquery-3.7.1.min.js"></script>
+    <script src="./../main.js"  ></script>
+    <link  rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="./../public/estilos.css">
+    <script src="https://kit.fontawesome.com/52f79cb381.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bg-background ">
+    <header class=" cabeza relative  bg-hero  bg-cover bg-center before:content-[''] before:bg-red-950/70 before:w-full before:h-full before:block before:absolute before h-[500px]">
+        <div class="relative z-10 w-11/12  mx-auto max-w-7xl">
+        <!--MENU DE NAVEGACION-->
+           <div class="flex flex-wrap items-center justify-center lg:justify-between gap-12">
+            <h3 class="font-title text-white text-4xl font-semibold">Portafolio</h3>
+            <nav   id="menucentral"  class=" mb-0 flex flex-wrap items-center justify-center gap-7 text-nowrap text-center text-white font-semibold uppercase">
+                <a href="#" id="btn-inicio" class=" hover:underline">Inicio</a>
+                <a href="#" id="btn-sobremi" class="hover:underline">sobre mi </a>
+                <a href="#" id="btn-portafolio" class="hover:underline">portafolio</a>
+                <a href="#" id="btn-experiencia"  class="hover:underline">experiencia</a>
+                <a href="#" id="btn-formulario" class="hover:underline">formulario </a>
+                <a href="#" id="btn-contactame" class="hover:underline">Contactame</a>
+
+            </nav>
+           </div>
+
+              
+           <!-- contenedor de text-->
+            <div class="my-20 text-center text-white" id="inicio" >
+                <p class="mt-50 mb-4 font-bold uppercase text-white">Programador & Diseñador web </p>
+                <h1 class="mb-2 font-title text-3xl lg:text-6xl text-white">Kelvin Muentes</h1>
+                <p class="font-title  text-1xl lg:text-2xl py-3 text-white">-desde 1995-</p>
+                <div>
+                    <a href="#" class="border  border-white/20 px-4 py-2 mb-10 transition-all hover:border-white rounded-b-md">portafolio</a>
+                    <a href="#" class="border border-white/20 px-2 py-2 transition-all hover:border-white rounded-b-md">Contactame</a>
+                </div>
+            </div>
+    </header>
+
+    <!-- contenedor de sobre mi -->
+      
+     <main class="bg-amber-50">
+
+        <!--sobre mi -->
+        <section  id="sobremi">
+
+          <div class=" relative -top-10 w-10/12 max-w-4xl mx-auto ">
+                    <img class="w-full relative  h-160  rounded-full top-7" src="./../public/img/galeriaa/kelv.jpg"  alt="">
+                    <div class="bg-white relative  -top-2 text-center shadow-md">
+                        <h3 class="font-title text-3xl mb-3 text-black">Programador & Diseñador wed </h3>
+                        <p class="text-base leading-8 text-black">Tengo 29 años y soy un apasionado del desarrollo web y los desafíos que combinan mente y cuerpo. Actualmente curso el quinto semestre de mi carrera en la Universidad Tecnológica de la Mixteca (UTM), donde me preparo para convertirme en un profesional integral en el mundo de la tecnología.
+                            Mi stack técnico incluye HTML, CSS, JavaScript y Java, y estoy constantemente explorando nuevas herramientas y buenas prácticas para crear experiencias web funcionales, accesibles y visualmente atractivas. Me motiva resolver problemas con código limpio y construir soluciones que realmente impacten a las personas.
+                            Fuera de la pantalla, soy un entusiasta del deporte. La natación y el triatlón no solo son pasatiempos para mí, sino una filosofía de vida: me enseñan disciplina, resistencia y la importancia de seguir adelante, paso a paso exactamente como en el desarrollo de software.
+                             Estoy en camino hacia mi título universitario.</p>
+                    </div>
+            </div>
+
+        </section>
+
+
+        <!--trabajos  -->
+          <section class="w-11/12 max-w-7xl mx-auto mb-25  " id="portafolio">
+           <!---portafolio trabnajos-->
+            <div class="mb-14 text-center">
+               <h2 class="mb-4 font-title text-black text-5xl font-bold ">Portafolio</h2>
+            </div>
+
+            <!--grid-->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 ">
+                <!--tarjeta 1  -->
+                <div class="mb-5 bg-white shadow-xs ">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/mc1.jpg"  class="h-65 w-full" alt="">
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center">Web De Agencia de viajes</h3>
+                        <div class="flex justify-between border-black/10 p-2 text-base ">
+                            <p>Creada: Postgresql,html ,php, Css y JavaScript</p>
+                            <p>año 2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--tarjeta 2 -->
+                <div class="mb-5 bg-white shadow-xs ">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/mc2.jpg"  class="h-65 w-full" alt="">
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center">Web De Servicios </h3>
+                        <div class="flex justify-between border-black/10 p-2 text-base ">
+                            <p>Creada con : Html, Css,JavaScript, Php</p>
+                            <p>año 2021</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--tarjeta 3  -->
+                <div class="mb-5 bg-white shadow-xs ">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/mc3.jpg"  class="h-65 w-full" alt="" height="100">
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center "> Web de Comida Japonesa</h3>
+                        <div class="flex justify-between border-black/10 p-2 text-base ">
+                            <p> Creada con : Html, Css,JavaScript y Python</p>
+                            <p>año 2022</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+       
+       
+       
+        </section>
+        
+
+        
+        <!--Galeria-->
+         <section class=" mb-5 w-9/12 m-auto " id="experiencia">
+           <!---portafolio trabnajos-->
+            <div class="mb-15 text-center">
+               <h2 class="mb-1 font-title text-5xl font-bold text-primary ">Habilidades </h2>
+            </div>
+
+            <!--grid-->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 ">
+                <!--tarjeta 1  -->
+                <div class="mb-5 bg-white shadow-xs border  border-amber-600  rounded-lg overflow-x-hidden">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/html.png"  class="h-50 w-full opacity-100 hover:opacity-100 transition grayscale-10 hover:grayscale-0 " alt="">
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center mt-8 font-black font-serifS">HTML</h3>
+                    </div>
+                </div>
+
+                <!--tarjeta 2 -->
+                
+                <div class="mb-5 bg-white shadow-xs border  border-amber-600  rounded-lg overflow-x-hidden">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/css.png"  class="h-50 w-full opacity-90 hover:opacity-100 transition grayscale-15 hover:grayscale-0" alt="">
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center mt-8 font-black font-serifS">CSS</h3>
+                    </div>
+                </div>
+
+                <!--tarjeta 3  -->
+                <div class="mb-5 bg-white shadow-xs border  border-amber-600  rounded-lg overflow-x-hidden ">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/js_2085265.png"  class="h-50 w-full opacity-90 hover:opacity-100 transition grayscale-15 hover:grayscale-0" alt="" height="100">
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center mt-8 font-black font-serifS">JAVASCRIPTS</h3>
+                      </div>
+                </div>
+
+                  <!--- 2t  -->
+
+            
+                <!--tarjeta 1  -->
+                <div class="mb-5 bg-white shadow-xs border  border-amber-600  rounded-lg overflow-x-hidden  ">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/java_226777.png"  class="h-50 w-full opacity-75 hover:opacity-100 transition grayscale-15s hover:grayscale-0" alt="">
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center mt-8 font-black font-serifS ">JAVA</h3>
+                    </div>
+                </div>
+
+                <!--tarjeta 2 -->
+                <div class="mb-5 bg-white shadow-xs border  border-amber-600  rounded-lg overflow-x-hidden  ">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/piton.png"  class="h-50 w-full opacity-90 hover:opacity-100 transition grayscale-15 hover:grayscale-0" alt="">
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center mt-8 font-black font-serifS">PYTHON</h3>
+                    </div>
+                </div>
+
+                <!--tarjeta 3  -->
+                <div class="mb-5 bg-white shadow-xs border  border-amber-600  rounded-lg overflow-x-hidden">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/c_6132222.png"  class="h-50 w-fullopacity-90 hover:opacity-100 transition grayscale-15 hover:grayscale-0" alt="" height="100">
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center mt-8 font-black font-serifSmt-8 S">C++</h3>
+                    </div>
+                </div>
+            
+
+             <!--- precios  -->
+
+             <!--tarjeta 1  -->
+                <div class="mb-5 bg-white shadow-xs border  border-amber-600  rounded-lg overflow-x-hidden ">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/base-de-datos.png"  class="h-50 w-full opacity-85 hover:opacity-100 transition grayscale-50 hover:grayscale-0" alt="">
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center mt-8 font-black font-serifS">POSGRESQL</h3>
+                    </div>
+                </div>
+
+                <!--tarjeta 2 -->
+                <div class="mb-5 bg-white shadow-xs border  border-amber-600  rounded-lg overflow-x-hidden">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/sql_7506880.png"  class="h-50 w-full opacity-85 hover:opacity-100 transition grayscale-50 hover:grayscale-0" alt="">
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center mt-8 font-black font-serifS">MySQL</h3>
+                    </div>
+                </div>
+
+                <!--tarjeta 3  -->
+                <div class="mb-5 bg-white shadow-xs border  border-amber-600  rounded-lg overflow-x-hidden ">
+                    <!---imagen y texto -->
+                    <div>
+                       <img src="./../public/img/galeriaa/php.png"  class="h-50 w-full opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0" alt="" height="100" >
+                    </div>
+                    <!--- precios  -->
+                    <div class="flex flex-col">
+                        <h3 class="text-center mt-8 font-black font-serifSs">PHP</h3>
+                    </div>
+                </div>
+           </div>     
+
+
+          </section>
+
+
+
+
+    </main>
+
+
+     <!-- Sección de formulario de contacto -->
+<section class="w-11/12 max-w-3xl mx-auto mb-14 bg" id="formulario">
+  <div class="text-center mb-10">
+    <h2 class="text-4xl md:text-5xl font-bold text-white font-title">formulario</h2>
+    <p class="mt-3 text-white">¿Tienes alguna pregunta o quieres trabajar juntos? Escríbeme.</p>
+  </div>
+
+  <form action="#" method="POST" class="space-y-6">
+    <!-- Nombre -->
+    <div>
+      <label for="nombre" class="block text-sm font-medium text-gray-300 mb-1">Nombre</label>
+      <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        required
+        class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+        placeholder="Tu nombre"
+      />
+    </div>
+
+    <!-- Correo -->
+    <div>
+      <label for="email" class="block text-sm font-medium text-gray-300 mb-1">Correo electrónico</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+        placeholder="tu@email.com"
+      />
+    </div>
+
+    <!-- Asunto -->
+    <div>
+      <label for="asunto" class="block text-sm font-medium text-gray-300 mb-1">Asunto</label>
+      <input
+        type="text"
+        id="asunto"
+        name="asunto"
+        class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+        placeholder="¿De qué se trata tu mensaje?"
+      />
+    </div>
+
+    <!-- Mensaje -->
+    <div>
+      <label for="mensaje" class="block text-sm font-medium text-gray-300 mb-1">Mensaje</label>
+      <textarea
+        id="mensaje"
+        name="mensaje"
+        rows="5"
+        required
+        class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+        placeholder="Escribe tu mensaje aquí..."
+      ></textarea>
+    </div>
+
+    <!-- Botón de envío -->
+    <div class="text-center">
+      <button
+        type="submit"
+        class="px-6 py-3 bg-primary border border-style:solid text-white font-medium rounded-lg hover:bg-opacity-90 transition duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-gray-900"
+      >
+        Enviar mensaje
+      </button>
+    </div>
+  </form>
+</section>
+        
+<footer class="mb-14 w-11/12 max-w-7xl mx-auto " id="contacto">
+  <!-- Encabezado -->
+  <div class="mb-10 text-center">
+    <h2 class="mb-4 font-title text-4xl md:text-5xl font-bold text-white">Contactame</h2>
+  </div>
+
+  <!-- Grid de 2 columnas -->
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+    <!-- Mitad izquierda: Mapa -->
+    <div>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.2690479079133!2d-80.73292762602792!3d-0.9507360353493602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902be137d96d754d%3A0x4c3d15d530c965b9!2sAv.%2024%2C%20Manta!5e0!3m2!1ses!2sec!4v1762271881348!5m2!1ses!2sec"
+        class="w-full h-64 md:h-96 rounded-lg"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <!-- Mitad derecha: Información -->
+    <div class="flex flex-col items-center justify-center space-y-6 text-center">
+      <!-- Información de contacto -->
+      <div class="foo space-y-2">
+        <p class="text-xl text-white">Kelvin Muentes</p>
+        <p class="text-xl text-white">Calle 24 y Av. 25, Manta, Ecuador</p>
+        <p class="text-x text-white">Tel: 099 878 4152</p>
+      </div>
+
+      <!-- Redes sociales -->
+      <div class="contenedor-icon flex gap-4">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+          <button class="p-3 rounded-full bg-primary text-white hover:bg-opacity-90 transition">
+            <i class="fa-brands fa-square-facebook text-xl"></i>
+          </button>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+          <button class="p-3 rounded-full bg-primary text-white hover:bg-opacity-90 transition">
+            <i class="fa-brands fa-instagram text-xl"></i>
+          </button>
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="X (Twitter)">
+          <button class="p-3 rounded-full bg-primary text-white hover:bg-opacity-90 transition">
+            <i class="fa-brands fa-x-twitter text-xl"></i>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pie de página opcional -->
+  <div class="mt-10 text-center text-sm text-white">
+    <p>Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+
+
+
+
+
+  </body>
+</html>
